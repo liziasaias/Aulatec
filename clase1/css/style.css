@@ -1,0 +1,62 @@
+/*Estilos css*/
+
+    body 
+        {
+            background:green;
+        }    
+    
+    p.mariposa img
+        {
+            width:100px;
+        }
+
+    
+    h1
+        {
+            font-size:30px;
+            font-family:tahoma;
+            text-align:center;
+            font-weight:bold;
+        } 
+    
+    img
+        {
+            width:500px;
+            height:300px;
+        }
+    
+    h2
+        {
+            font-size:20px;
+            font-family:tahoma;
+            text-decoration:underline;    
+        }
+    
+    ul
+        {
+            font-size:16px; 
+            font-family:tahoma;
+        }
+        
+    h3
+        {
+            font-size:16;
+        }
+    
+    p
+        {
+            font-family:tahoma;
+            font-size:16px;   
+        }
+    
+    p.imagen
+        {
+            text-align:center;
+        }
+    
+    p.centrado
+        {
+            text-align:center;
+        }
+    
+
