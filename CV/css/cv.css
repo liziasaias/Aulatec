@@ -1,0 +1,121 @@
+/* -- Estilos CSS--*/
+body
+{
+ background:#BBFFFF;   
+}
+
+.img-circle{
+    width:150px;
+    box-shadow:2px 2px 6px #CCC;
+}
+
+
+.line-right
+{
+    border-top:solid #D47A7A 10px;
+    height:1px;
+}
+
+.line-left
+{
+    border-top:solid #AEA2D0 10px;
+    height:1px;
+}
+
+h2
+{
+    text-transform:uppercase;
+    border-bottom:solid 1px #2A8AC7;
+    color:#2A8AC7;
+    font-size:25px;
+    margin-bottom:27px;
+    padding-bottom:5px;
+}
+    
+hr
+{
+    border:0;
+    height:15px;
+    width:100%;
+    background:url(img/butterfly_clipart_pink.gif) center no-repeat scroll;
+}
+
+}
+
+h3 .fa-star
+{
+    color:#AA9ED0;
+}
+
+h3 .fa-lightbulb-o
+{
+    color:#D07A7B;
+}
+
+h3 .fa-desktop
+{
+    color:#B4D6A3;
+}
+
+h3 .fa-heart
+{
+    color:#83CEE3;
+}
+
+.line-right-2
+{
+    border-top:solid #83CEE3 10px;
+    height:1px;
+    margin-top:30px;
+}
+
+.line-left-2
+{
+    border-top:solid #B4D6A4 10px;
+    height:1px;
+    margin-top:30px;
+}
+
+table
+{
+    width:100%;
+}
+
+table td
+{
+    padding:5px 10px;
+}
+
+table tr
+{
+    border-top:1px solid #ccc;
+}
+
+table tr:last-child
+{
+    border-bottom:1px solid #ccc;
+}
+
+table td:first-child
+{
+    color:#8C8484;
+}
+
+table td .fa-user
+{
+    color:#AEA2D0;
+}
+
+table td .fa-birthday-cake
+{
+    color:#D47A7A;
+}
+
+table td .fa-phone
+{
+    color:#83CEE3;
+}
+
+table td .fa-envelope{
+    color:#DDD195;
+}
