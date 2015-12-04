@@ -1,11 +1,17 @@
 /* -- Estilos CSS--*/
 body
 {
- background:#BBFFFF;   
+ background:#E8FFFF;   
+}
+    
+}
+
+.fondo{
+    background:url(http://cdn8.staztic.com/app/a/6087/6087794/butterflies-wallpapers-hd-1-l-140x140.png);
 }
 
 .img-circle{
-    width:150px;
+    width:200px;
     box-shadow:2px 2px 6px #CCC;
 }
 
@@ -30,36 +36,39 @@ h2
     font-size:25px;
     margin-bottom:27px;
     padding-bottom:5px;
-}
-    
-hr
-{
-    border:0;
-    height:15px;
-    width:100%;
-    background:url(img/butterfly_clipart_pink.gif) center no-repeat scroll;
-}
-
+    font-weight:bold;
 }
 
 h3 .fa-star
 {
     color:#AA9ED0;
+    font-size:27px;
 }
 
 h3 .fa-lightbulb-o
 {
     color:#D07A7B;
+    font-size:27px;
 }
 
 h3 .fa-desktop
 {
     color:#B4D6A3;
+    font-size:27px;
 }
 
 h3 .fa-heart
 {
     color:#83CEE3;
+    font-size:27;
+}
+
+p{
+    font-size:15px;
+}
+
+span{
+    font-size:20px;
 }
 
 .line-right-2
@@ -84,6 +93,7 @@ table
 table td
 {
     padding:5px 10px;
+    font-size:15px;
 }
 
 table tr
@@ -118,4 +128,8 @@ table td .fa-phone
 
 table td .fa-envelope{
     color:#DDD195;
+}
+
+li{
+    font-size:15px;
 }
