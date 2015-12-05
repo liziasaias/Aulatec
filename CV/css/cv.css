@@ -1,17 +1,33 @@
 /* -- Estilos CSS--*/
 body
 {
- background:#E8FFFF;   
-}
-    
+ background:url(http://img0.mxstatic.com/wallpapers/2f1d5393a1ee62981a887b4478dd9b56_large.jpeg);
 }
 
-.fondo{
-    background:url(http://cdn8.staztic.com/app/a/6087/6087794/butterflies-wallpapers-hd-1-l-140x140.png);
+header{
+    background:url(https://s-media-cache-ak0.pinimg.com/736x/a0/95/50/a09550f95344bfbe7899825f78eea2f4.jpg);
+    width:100%;
+    border-top:#FF40CF 15px solid;
 }
+
+
+.hada
+{
+    width:200px;
+    margin-left:70px;
+}
+
+h1{
+    font-weight:bold;
+    font-size:60px;
+    font-family:times;
+    width:200px;
+}
+
+
 
 .img-circle{
-    width:200px;
+    width:250px;
     box-shadow:2px 2px 6px #CCC;
 }
 
@@ -20,12 +36,14 @@ body
 {
     border-top:solid #D47A7A 10px;
     height:1px;
+    box-shadow:4px 4px 9px #CCC;
 }
 
 .line-left
 {
     border-top:solid #AEA2D0 10px;
     height:1px;
+    box-shadow:4px 4px 9px #CCC;
 }
 
 h2
@@ -132,4 +150,14 @@ table td .fa-envelope{
 
 li{
     font-size:15px;
+}
+
+footer
+{
+    background:url(https://s-media-cache-ak0.pinimg.com/736x/a0/95/50/a09550f95344bfbe7899825f78eea2f4.jpg);
+    width:100%;
+    border-bottom:#FF40CF 15px solid;
+}
+.profile .butterfly{
+    text-align:center;
 }
