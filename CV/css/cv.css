@@ -1,53 +1,31 @@
 /* -- Estilos CSS--*/
 body
-{
- background:url(http://img0.mxstatic.com/wallpapers/2f1d5393a1ee62981a887b4478dd9b56_large.jpeg);
-}
+    {
+     background:url(http://img0.mxstatic.com/wallpapers/2f1d5393a1ee62981a887b4478dd9b56_large.jpeg);
+    }
 
-header{
+header
+    {
     background:url(https://s-media-cache-ak0.pinimg.com/736x/a0/95/50/a09550f95344bfbe7899825f78eea2f4.jpg);
     width:100%;
-    border-top:#FF40CF 15px solid;
-}
+    height:180px;
+    border-top:#FD8DBB 20px solid;
+    box-shadow:5px 5px 5px #CCC;
+    }
 
-
-.hada
-{
-    width:200px;
-    margin-left:70px;
-}
-
-h1{
-    font-weight:bold;
+h1
+    {
     font-size:60px;
-    font-family:times;
-    width:200px;
-}
-
-
-
-.img-circle{
-    width:250px;
-    box-shadow:2px 2px 6px #CCC;
-}
-
-
-.line-right
-{
-    border-top:solid #D47A7A 10px;
-    height:1px;
-    box-shadow:4px 4px 9px #CCC;
-}
-
-.line-left
-{
-    border-top:solid #AEA2D0 10px;
-    height:1px;
-    box-shadow:4px 4px 9px #CCC;
-}
-
+    font-family:century;
+    text-transform:uppercase;
+    font-weight:bold;
+    margin-top:40px;
+    width:100%;
+    text-align:center;
+    }
+    
 h2
-{
+    {
     text-transform:uppercase;
     border-bottom:solid 1px #2A8AC7;
     color:#2A8AC7;
@@ -55,109 +33,302 @@ h2
     margin-bottom:27px;
     padding-bottom:5px;
     font-weight:bold;
-}
+    font-family:serif;
+    text-align:left;
+    }
+h3
+    {
+    font-weight:bold;
+    font-size:22px;
+    }
 
-h3 .fa-star
-{
-    color:#AA9ED0;
-    font-size:27px;
-}
 
-h3 .fa-lightbulb-o
-{
-    color:#D07A7B;
-    font-size:27px;
-}
+span
+    {
+    font-weight:bold;
+    font-size:16px;
+    }
 
-h3 .fa-desktop
-{
-    color:#B4D6A3;
-    font-size:27px;
-}
-
-h3 .fa-heart
-{
-    color:#83CEE3;
-    font-size:27;
-}
-
-p{
+p
+    {
     font-size:15px;
-}
-
-span{
-    font-size:20px;
-}
-
-.line-right-2
-{
-    border-top:solid #83CEE3 10px;
-    height:1px;
-    margin-top:30px;
-}
-
-.line-left-2
-{
-    border-top:solid #B4D6A4 10px;
-    height:1px;
-    margin-top:30px;
-}
-
+    text-align:justify;
+    }
+    
 table
-{
+    {
     width:100%;
-}
+    }
 
 table td
-{
+    {
     padding:5px 10px;
     font-size:15px;
-}
+    }
 
 table tr
-{
+    {
     border-top:1px solid #ccc;
-}
+    }
 
 table tr:last-child
-{
+    {
     border-bottom:1px solid #ccc;
-}
+    }
 
 table td:first-child
-{
+    {
     color:#8C8484;
-}
+    }
+    
+li
+    {
+    font-size:17px;
+    }
 
-table td .fa-user
-{
-    color:#AEA2D0;
-}
-
-table td .fa-birthday-cake
-{
-    color:#D47A7A;
-}
-
-table td .fa-phone
-{
-    color:#83CEE3;
-}
-
-table td .fa-envelope{
-    color:#DDD195;
-}
-
-li{
-    font-size:15px;
-}
+hr
+    {
+    border:0;
+    height:100px;
+    width:100%;
+    margin:0 auto;
+    background:url(http://www.wedgwood.co.uk/media/wysiwyg/Wedgwood/Icons-Dividers/floral-line.gif) center no-repeat scroll;
+    }
 
 footer
 {
+    margin-top:35px;
     background:url(https://s-media-cache-ak0.pinimg.com/736x/a0/95/50/a09550f95344bfbe7899825f78eea2f4.jpg);
     width:100%;
-    border-bottom:#FF40CF 15px solid;
+    height:180px;
+    border-bottom:#FD8DBB 20px solid;
 }
-.profile .butterfly{
+
+h3 .fa-star
+    {
+    color:#AA9ED0;
+    font-size:27px;
+    
+    }
+
+h3 .fa-lightbulb-o
+    {
+    color:#D07A7B;
+    font-size:27px;
+    }
+
+h3 .fa-desktop
+    {
+    color:#B4D6A3;
+    font-size:27px;
+    }
+
+h3 .fa-heart
+    {
+    color:#83CEE3;
+    font-size:27px;
+    }
+
+
+table td .fa-user
+    {
+    color:#AEA2D0;
+    font-size:20px;
+    }
+
+table td .fa-birthday-cake
+    {
+    color:#D47A7A;
+    font-size:20px;
+    }
+
+table td .fa-phone
+    {
+    color:#83CEE3;
+    font-size:20px;
+    }
+
+table td .fa-envelope
+    {
+    color:#DDD195;
+    font-size:20px;
+    }
+
+.liz
+    {
+    width:200px;
+    box-shadow:4px 4px 6px #CCC;
+    margin-top:30px
+    margin-bottom:10px;
+    }
+
+
+.line-right
+    {
+    border-bottom:solid #D47A7A 10px;
+    height:1px;
+    margin-top:30px;
+    }
+
+.line-left
+    {
+    border-bottom:solid #AEA2D0 10px;
+    height:1px;
+    margin-top:30px;
+    }
+
+.line-right-2
+    {
+    border-top:solid #83CEE3 10px;
+    height:1px;
+    margin-top:0px;
+    }
+
+.line-left-2
+    {
+    border-top:solid #B4D6A4 10px;
+    height:1px;
+    margin-top:0px;
+    }
+
+.fa 
+    {
+    font-size:30px;
+    }
+    
+.student
+    {
+    height:150px;
+    width:100px;
+    height:97px;
+    margin-top:5px;
+    }
+
+.fairy
+    {
+    box-shadow:2px 2px 2px 2px #ccc;
+    height:150px;
+    width:150px;
+    margin-top:20px;
+    }
+    
+.butterfly
+    {
+    margin-top:15px;
+    }
+    
+@media screen and (max-width:480px){
+
+h1
+    {
+    float:none;
+    width:100%;
     text-align:center;
+    margin-top:30px;
+    }
+
+.logo
+    {
+    float:none;
+    }
+    
+
+.liz
+    {
+    float:none;
+    margin-top:30px;
+    }
+
+.details, .education .profile
+    {
+    float:none;
+    width:100%;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:767){
+
+h1
+    {
+    float:none;
+    width:100%;
+    text-align:center;
+    margin-top:30px;
+    }
+
+.logo
+    {
+    float:none;
+    }
+    
+
+.liz
+    {
+    float:none;
+    margin-top:30px;
+    }
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:991px){
+
+
+h1
+    {
+    float:none;
+    width:100%;
+    text-align:center;
+    }
+
+.logo{
+    float:none;
+}
+
+.liz{
+    margin-top:30px;
+    }
+}
+
+
+@media screen and (min-width:991px) and (max-width:1200px){
+    
+h1
+    {
+    float:none
+    width:100%;
+    text-align:center;
+    }
+
+.logo
+    {
+    float:none;
+    }
+
+
+.liz{
+    margin-top:30px;
+    }
+    
+}
+
+
+@media screen and (max-width:992px){
+
+h1
+    {
+    float:none;
+    width:100%;
+    text-align:center;
+    }
+
+.logo
+    {
+    float:none;
+    }
+
+.liz{
+    margin-top:30px;
+    }
+    
 }
